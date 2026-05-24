@@ -81,6 +81,7 @@ const Hero = () => {
             src="/house-img.png"
             width={1000}
             height={650}
+            priority
             alt="Modern House"
             className="w-full h-[500px] object-cover rounded-tl-[180px] rounded-br-[90px]"
           />
