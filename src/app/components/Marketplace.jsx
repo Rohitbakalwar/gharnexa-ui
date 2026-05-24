@@ -86,7 +86,7 @@ const Marketplace = () => {
                 width={260}
                 height={140}
                 alt={item.name}
-                className="w-full h-[120px] object-cover"
+                className="w-full h-30 object-cover"
               />
 
               <div className="p-3">

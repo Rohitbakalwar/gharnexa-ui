@@ -9,7 +9,13 @@ const Navbar = () => {
     <nav className=" flex items-center justify-between px-8 py-2  bg-white shadow-sm">
       {/* Logo */}
       <div className="flex items-center ">
-        <Image src="/gharnexa-logo.png" width={210} height={70} alt="logo" />
+        <Image
+          src="/gharnexa-logo.png"
+          width={210}
+          height={70}
+          alt="logo"
+          className="w-[220px] h-auto"
+        />
       </div>
 
       <div className="flex items-center justify-between gap-8">
